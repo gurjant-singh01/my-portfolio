@@ -15,10 +15,11 @@ export const greetings: GreetingsType = {
   name: 'Gurjant Singh',
   title: "Hello, I'm Gurjant Singh",
   description:
-    "A backend developer with expertise in Node.js, Nest.js, Express.js, and Django. I specialize in architecting robust APIs that power seamless interactions. With a 2 year of experience in coding, Passionate about delivering high-quality web solutions with a strong foundation in Node.js. Committed to writing clean code, providing exceptional user experiences, and staying updated with industry trends for innovative solutions. Let's work together to shape the future with efficient APIs.",
+    "Welcome to my portfolio! I'm Gurjant Singh, a passionate software developer with over 2 years of experience in crafting innovative solutions. My expertise spans Node.js, Express, Nest.js, and Django, allowing me to build powerful and scalable backend systems. I thrive on transforming complex challenges into seamless digital experiences, always prioritizing clean code and best practices. Join me on this journey as we explore the intersection of technology and creativity, and let's collaborate to turn ideas into reality!",
   // resumeLink:
   // 'https://drive.google.com/file/d/1k2fUTUHaRaSZv1jbIhlfMrDThBZL-aQR/view?pli=1',
 };
+
 
 export const openSource = {
   githubUserName: 'gurjantsingh3',
@@ -89,6 +90,10 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: 'NestJs',
           iconifyTag: 'logos:nestjs',
+        },
+        {
+          skillName: 'ExpressJs',
+          iconifyTag: 'logos:express',
         },
       ],
     },
