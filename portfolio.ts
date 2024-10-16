@@ -16,8 +16,8 @@ export const greetings: GreetingsType = {
   title: "Hello, I'm Gurjant Singh",
   description:
     "Welcome to my portfolio! I'm Gurjant Singh, a passionate software developer with over 2 years of experience in crafting innovative solutions. My expertise spans Node.js, Express, Nest.js, and Django, allowing me to build powerful and scalable backend systems. I thrive on transforming complex challenges into seamless digital experiences, always prioritizing clean code and best practices. Join me on this journey as we explore the intersection of technology and creativity, and let's collaborate to turn ideas into reality!",
-  // resumeLink:
-  // 'https://drive.google.com/file/d/1k2fUTUHaRaSZv1jbIhlfMrDThBZL-aQR/view?pli=1',
+  resumeLink:
+  'https://drive.google.com/file/d/1ZgWuNrp6fp1x43xKjW-EKB3VDclYIcx0/view?usp=sharing',
 };
 
 
@@ -106,7 +106,10 @@ export const skillsSection: SkillsSectionType = {
           '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases'
         ),
         emoji(
-          '⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions'
+          '⚡ Stripe payment gateway integration with Django Rest Framework & NodeJs'
+        ),
+        emoji(
+          '⚡ Docker Compose for containers orchestration and deployment on multiple cloud platforms'
         ),
       ],
       softwareSkills: [
@@ -143,10 +146,10 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'MongoDB',
           iconifyTag: 'logos:mongodb',
         },
-        // {
-        //   skillName: 'Nginx',
-        //   iconifyTag: 'logos:nginx',
-        // },
+        {
+          skillName: 'Nginx',
+          iconifyTag: 'logos:nginx',
+        },
         {
           skillName: 'Sentry',
           iconifyTag: 'logos:sentry-icon',
