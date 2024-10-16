@@ -113,7 +113,6 @@ export const skillsSection: SkillsSectionType = {
         ),
       ],
       softwareSkills: [
-        // ? Check README To get icon details
         {
           skillName: 'AWS',
           iconifyTag: 'logos:aws',
